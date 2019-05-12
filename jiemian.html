@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            /* background-color: #333; */
+            background-image: linear-gradient(
+                         45deg,
+                       #9fbaa8,
+                       #31354c
+                    );  /*设置颜色渐变 方向(0deg垂直向上) 起点颜色 终点颜色*/
+            transition: 0.4s; 
+           /*过度效果  property duration timing-function delay 默认属性:all 0 ease 0*/
+        }
+        .left {
+            width: 10%;
+            color: white;
+        }
+        .right {
+            width: 90%;
+            float: right;
+            color: #3c3c3c;
+        }
+        .yahei {
+            font: 30px "microsoft yahei";
+            height: 100px;
+            line-height: 100px;
+        }
+        .font25 {
+            font: 25px "宋体";
+            height: 100px;
+            line-height: 100px;
+        }
+        span {
+            width: 200px;
+            height: 100px;
+            line-height: 100px;
+            font-size:20px;
+        }
+        .left1 {
+            float: left;
+            font-size:30px;
+            
+        }
+        .right1 {
+            float: right;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        span {
+            font-family: "宋体";
+        }
+        .serch {
+            border-radius: 10px;
+            border-width: 2px;
+            border-color:pink;
+            border-style: solid;
+            border-radius: 10px;
+        }
+        a:hover  {
+            font-size: 30px;
+            color: black;
+            background-color: #ccc;
+            border-radius: 10px;
+        }
+        img {
+            width: 25px;
+            height: 25px;
+        }
+        iframe {
+            width: 89%;
+            height: 800px;
+            float: right;
+        }
+        span {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="right">
+        <span class="left1" > <a href="#">超市管理</a> </span>
+        <span > 
+            搜索：<input type="text" class="serch"  value="&nbsp;&nbsp;&nbsp;请输入搜索内容"> 
+        </span>
+        <span class="right1" > <a href="#">注销</a> </span>
+    </div>
+    <div>
+        <iframe src="file:///D:/HTML/practice4-2.html" frameborder="1"></iframe>
+   </div>
+    <div class="left"> 
+        <div class="yahei" > <a href="#">超市管理</a> </div>
+        <div class="font25"> <a href="#">采购管理</a> </div>
+        <div class="font25"> <a href="#">往来现金</a> </div>
+        <div class="font25"> <a href="#">库存核算</a> </div>
+        <div class="font25"> <a href="#">零售管理</a> </div>
+        <div class="font25"> <a href="#">会员管理</a> </div>
+        <div class="font25"> <a href="#">基础设置</a> </div>
+    </div>
+</body>
+</html>
